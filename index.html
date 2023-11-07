@@ -1,0 +1,71 @@
+<html>
+    <head>
+        <style>
+            #div1, #div2, #div3, #div4, #div5, #div6, #div7, #div8, #div9, #div10, #div11, #div12 {
+                float: left;
+                width: 100px;
+                height: 35px;
+                margin: 10px;
+                padding: 10px;
+                border: 1px solid black;
+                display: flex;
+                justify-content: center;
+            }
+        </style>
+    </head>
+      <script src="script.js"></script>
+    <body>
+
+        <h2>Drag and Drop</h2>
+        <p>Arraste o emoji entre as duas divs.</p>
+
+        <div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)">
+            <p draggable="true" ondragstart=
+            "drag(event)" id="drag1">🐷
+        </div>
+
+        <div id="div2" ondrop="drop(event)" ondragover="allowDrop(event)">macaco</div>
+        <br><br><br><br><br>
+        
+        <div id="div3" ondrop="drop(event)" ondragover="allowDrop(event)">
+            <p draggable="true" ondragstart=
+            "drag(event)" id="drag2" >🐵
+        </div>
+
+        <div id="div4" ondrop="drop(event)" ondragover="allowDrop(event)">galinha</div>
+        <br><br><br><br><br>
+        
+        <div id="div5" ondrop="drop(event)" ondragover="allowDrop(event)">
+            <p draggable="true" ondragstart=
+            "drag(event)" id="drag3">🐸
+        </div>
+
+        <div id="div6" ondrop="drop(event)" ondragover="allowDrop(event)">unicórnio</div>
+        <br><br><br><br><br>
+
+        <div id="div7" ondrop="drop(event)" ondragover="allowDrop(event)">
+            <p draggable="true" ondragstart=
+            "drag(event)" id="drag4">🐔
+        </div>
+
+        <div id="div8" ondrop="drop(event)" ondragover="allowDrop(event)">porco</div>
+        <br><br><br><br><br>
+
+        <div id="div9" ondrop="drop(event)" ondragover="allowDrop(event)">
+            <p draggable="true" ondragstart=
+            "drag(event)" id="drag5">🐠
+        </div>
+
+        <div id="div10" ondrop="drop(event)" ondragover="allowDrop(event)">sapo</div>
+        <br><br><br><br><br>
+
+        <div id="div11" ondrop="drop(event)" ondragover="allowDrop(event)">
+            <p draggable="true" ondragstart=
+            "drag(event)" id="drag6">🦄
+        </div>
+
+        <div id="div12" ondrop="drop(event)" ondragover="allowDrop(event)">peixe</div>
+        <br><br><br><br><br>
+    </body>
+</html>
+
